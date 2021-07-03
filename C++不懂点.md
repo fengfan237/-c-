@@ -2,13 +2,13 @@
 
 # ***const***
 
-![image-20210625150638333](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625150638333.png)
+![image-20210625150638333](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625150638333.png)
 
-![image-20210625150834583](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625150834583.png)
+![image-20210625150834583](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625150834583.png)
 
-![image-20210625150919077](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625150919077.png)
+![image-20210625150919077](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625150919077.png)
 
-![image-20210625151026539](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625151026539.png)
+![image-20210625151026539](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625151026539.png)
 
 # *static_cast*
 
@@ -28,7 +28,7 @@ static_cast相当于传统的C语言里的强制转换，该运算符把expressi
 
 注意：static_cast不能转换掉expression的const、volatile、或者__unaligned属性
 
-![image-20210625163857661](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625163857661.png)
+![image-20210625163857661](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625163857661.png)
 
 
 
@@ -42,7 +42,7 @@ dynamic_cast<type&&>(e)
 
 type必须是一个类类型，在第一种形式中，type必须是一个有效的指针，在第二种形式中，type必须是一个左值，在第三种形式中，type必须是一个右值。在上面所有形式中，e的类型必须符合以下三个条件中的任何一个：e的类型是是目标类型type的公有派生类、e的类型是目标type的共有基类或者e的类型就是目标type的的类型。如果一条dynamic_cast语句的转换目标是指针类型并且失败了，则结果为0。如果转换目标是引用类型并且失败了，则dynamic_cast运算符将抛出一个std::bad_cast异常(该异常定义在typeinfo标准库头文件中)。e也可以是一个空指针，结果是所需类型的空指针。
 
-![image-20210625164131496](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625164131496.png)
+![image-20210625164131496](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625164131496.png)
 
 # *const_cast*
 
@@ -58,7 +58,7 @@ const_cast，用于修改类型的const或volatile属性。
 
 ③const_cast一般用于修改底指针。如const char *p形式。
 
-![image-20210625164203426](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625164203426.png)
+![image-20210625164203426](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625164203426.png)
 
 
 
@@ -66,9 +66,9 @@ const_cast，用于修改类型的const或volatile属性。
 
 被explicit关键字修饰的类构造函数，不能进行自动地隐式类型转换，只能显式地进行类型转换。
 
-![image-20210625150252918](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625150252918.png)
+![image-20210625150252918](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625150252918.png)
 
-![image-20210625150324344](C:\Users\ff\AppData\Roaming\Typora\typora-user-images\image-20210625150324344.png)
+![image-20210625150324344](https://github.com/fengfan237/cpp-difficulty/tree/main/typora-user-images\image-20210625150324344.png)
 
 
 
